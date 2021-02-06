@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+}
+
+@font-face {
+  font-family: Exobold;
+  src: url(exobold.ttf);
+}
+
+@font-face {
+  font-family: Exoregular;
+  src: url(exoregular.ttf);
+}
+
+div.pageheader {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 120%;
+  font-family: Exoregular;
+  font-weight: bold;
+  margin: 0;
+}
+
+li {
+  float: left;
+}
+
+li a.navigation {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 36px 60px;
+  text-decoration: none;
+}
+
+li a.navigation:hover {
+  text-decoration: underline #ffcc00;
+}
+
+h1#mainheader {
+  margin: 0;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 9%;
+  padding-bottom: 25%;
+  font-size: 900%;
+  font-family: Brush Script MT;
+  color: white;
+  text-shadow: 3px 3px 8px #ffe066;
+}
+
+div#mainheaderbackground {
+  background-image: url('gympod1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+footer {
+  background-color: #4a4a4a;
+}
+
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left:8%;
+  margin-right:8%;
+}
+
+.flex-footer > div {
+  width: 33%;
+  text-align: center;
+  padding: 0 20px 0 20px;
+  color: white;
+}
+
+h2.footerheader {
+  padding-bottom: 1%;
+  font-family: exobold;
+}
+
+h3.footerheader {
+  font-family: exobold;
+  margin: 5px;
+  color: #ffcc00;
+}
+
+p.footerparagraph {
+  font-family: exoregular;
+  margin-top: 8px;
+}
+
+h2.howitworksheader {
+  font-family: exobold;
+  font-size: 300%;
+  letter-spacing: 4px;
+  margin-top: 8%;
+  margin-bottom: 0;
+  color: white;
+}
+
+h3.howitworksheader {
+  font-family: exobold;
+  font-size: 200%;
+  margin-top: 1%;
+  letter-spacing: 3px;
+  color: #ffcc00;
+}
+
+p.howitworksparagraph {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: exoregular;
+  color: #b0b0b0;
+  margin: 2%;
+}
+
+.flex-moreinfo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-moreinfo1 > div {
+  width: 83%;
+  margin: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+h1.moreinfomainheader {
+  font-size: 400%;
+  font-family: exobold;
+  letter-spacing: 10px;
+  margin: 0;
+  border-bottom: 4px solid #ffcc00;
+  color: white;
+}
+
+h1.moreinfoheader {
+  font-family: exobold;
+  letter-spacing: 5px;
+  font-size: 300%;
+  color: white;
+}
+
+p.moreinfoparagraph {
+  font-family: exoregular;
+  letter-spacing:1px;
+  color: #b0b0b0;
+  font-size: 150%;
+}
+
+p.equipmentparagraph {
+  font-family: exoregular;
+  letter-spacing:1px;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  letter-spacing: 4px;
+  width: 22%;
+  border-right: 4px dotted #ffcc00;
+  border-left: 4px dotted #ffcc00;
+}
+
+h1.equipmentheader {
+  font-family: exobold;
+  letter-spacing: 4px;
+  color: #ffcc00;
+  padding: 1%;
+}
+
+p.equipmentparagraph2 {
+  font-family: exoregular;
+  font-size: 125%;
+  color: #b0b0b0;
+  text-align: center;
+  width: 75%;
+  padding-bottom: 2%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #ffcc00;
+}
+
+.top {
+  position: absolute;
+  top: 15%;
+  right: 45%;
+}
+
+.top2 {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 25%;
+  left: 25%;
+}
+
+h1.pricingheader {
+  font-family: exobold;
+  font-size: 450%;
+  letter-spacing: 5px;
+}
+
+h1.pricingheader2 {
+  font-family: exobold;
+  font-size: 250%;
+  letter-spacing: 2px;
+  color: white;
+}
+
+a.pricingbutton {
+  color: black;
+  font-family: exobold;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 23px 40px;
+  border-radius: 10px;
+  background-color: #ffcc00;
+  text-decoration: none;
+}
+  
+a.pricingbutton:hover {
+  color: white;
+}
+
+h1.locationheader {
+  font-family: exobold;
+  font-size: 400%;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+}
+
+.flex-location {
+  display: flex;
+  flex-direction: row;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top: 5%;
+  border-top: 4px solid #ffcc00;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+  border-bottom: 4px solid #ffcc00;
+}
+
+.flex-location > div.locationleft {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.flex-location > div.locationright {
+  width: 40%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h1.locationleftheader {
+  font-family: exobold;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 250%;
+}
+
+p.locationleftparagraph {
+  font-family: exoregular;
+  font-size: 125%;
+  color: #b0b0b0;
+}
+
+h2.locationrightheader {
+  font-family: exobold;
+  font-size: 200%;
+  color: #ffcc00;
+  border-bottom: 1px solid #b0b0b0;
+  margin-bottom: 4%;
+}
+
+ul.locationrightlist {
+  font-family: exoregular;
+  color: #b0b0b0;
+  letter-spacing: 1px;
+  margin-bottom: 13%;
+  padding-left: 5%;
+}
+
+ul.locationrightlist > li {
+  margin: 3px;
+}
